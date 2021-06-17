@@ -1,0 +1,21 @@
+{
+  "name": "webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./specs/**/*.spec.js --timeout 15000",
+    "selupdate": "webdriver-manager update",
+    "selstart": "webdriver-manager start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.0",
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "webdriver-manager": "^12.1.8"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^6.23.0"
+  }
+}
